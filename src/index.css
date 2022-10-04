@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.head{
+  font-size: medium;
+}
+.card-header{
+  color: black;
+  font-family: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: extra-expanded;
+  background-color: rgb(245, 216, 216);
+  padding:20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#dropdownMenuButton{
+  
+  font-size: medium;
+  background-color: blue;
+}
+
+pre{
+color: red;
+letter-spacing: -0.04em;
+font-family: "KareliaWeb Medium", sans-serif;
+position: relative;
+color: #EA262A;
+font-size: x-large;
+
+
+
+}
+
+
+h2 {
+  font-weight: 300
+}
+
+form {
+  display: inline-block;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 2rem;
+  margin: 2rem 0 1rem 0
+}
+
+form label {
+  float: left;
+  font-size: .9rem;
+  margin: 0;
+  padding: 0
+}
+
+.right-label {
+  float: right;
+  cursor: pointer
+}
+
+input {
+  width: 15rem;
+  padding: .3rem;
+  border-radius: 5px;
+  outline: none;
+  border: none
+}
+
+#sub_btn {
+  display: block;
+  width: 100%;
+  padding: .3rem;
+  border: none;
+  background: #222;
+  color:#f3f3f3;
+  border-radius: 3px;
+}
+
+#sub_btn:hover {
+  background: #333;
+  transition: all .5s
+}
+
+.card{
+  display: flex;
+  align-items: stretch;
+}
+
+.nav-link{
+  color: rgb(255, 255, 255);
+  font-size: large;
+}
+
+.text-center{
+  font-family: 'Arial Narrow Bold', sans-serif;
+  background-image: url("C:\Users\nimal.m\lms_frontend\public\prodaptlogo.png");
+  background-repeat:no-repeat;
+  background-position:110px;
+  
+}
