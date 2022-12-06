@@ -5,6 +5,7 @@ import Useraccount from './Useraccount'
 import Profile from './Profile';
 
 
+
 import {Routes,Route} from 'react-router-dom';
 
 import Login from './Login';
@@ -16,11 +17,19 @@ import Login from './Login';
 
 function Main() {
   return (
+    
     <div className="App">
-      <Header />
-      <Routes>
 
-        <Route path="/" element={<Login />} />
+      <div>
+      <Header />
+        <Routes>
+          <Route path="/" element={<Login />} />
+        </Routes>
+      </div>
+      <div>
+      
+      <Routes>
+{/*  renders some UI when a location matches the route’s path. */}
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/useraccount" element={<Useraccount />} />
@@ -29,6 +38,8 @@ function Main() {
         {/* <Route path="/adminhome" element={<Adminhome />} /> */}
 
       </Routes>
+      </div>
+      
 
     </div>
 

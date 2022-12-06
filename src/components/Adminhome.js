@@ -13,10 +13,10 @@ function Adminhome() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
             <a className="nav-link" href="/useraccount">UserDocuments</a>
-            <a className="nav-link " href="/home"> User Details </a>
+            <a className="nav-link " href="/home">User Details </a>3
             <a className="nav-link" href="/userprofile">Help</a>
             <a className="nav-link" href="/about">User Video</a>
-            <a className="nav-link" href="/">Logout​</a>
+            <a className="nav-link" href="/">Logout</a>
 
           </div>
 
@@ -30,3 +30,4 @@ function Adminhome() {
 
 
 export default Adminhome;
+

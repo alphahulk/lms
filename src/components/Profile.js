@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import'../index.css'
 
 export default function Profile() {
@@ -7,14 +8,10 @@ export default function Profile() {
     return (
         <><h2 className="card-header">PROFILE DETAILS</h2><>
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn" type="button" id="dropdownMenuButton">
                     EDIT PROFILE
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="/">Action</a>
-                    <a class="dropdown-item" href="/">Another action</a>
-                    <a class="dropdown-item" href="/">Something else here</a>
-                </div>
+                
             </div>
 
             <div className="mb-3 row">
@@ -80,6 +77,7 @@ export default function Profile() {
                         className="form-control-plaintext"
                         id="staticEmail"
                         defaultValue="email@example.com" />
+                        
                     <div>
 
                     </div>
